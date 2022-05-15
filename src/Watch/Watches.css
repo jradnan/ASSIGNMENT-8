@@ -1,0 +1,25 @@
+.watch-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 40px;
+    margin-right: 300px;
+
+    
+}
+.cart-container{
+    background-color: rgb(212, 184, 184);
+    padding: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .watch-gallery{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        width: 90%;
+        margin:  100px;
+ 
+    }
+  }
+  
